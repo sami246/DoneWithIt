@@ -1,5 +1,0 @@
-Lessons: Assets folder
-  - Images, videos, etc
-  - React Native does not have <div> and other things like HTML, we have to use components provided by React Native
-  - This is so the elements are converted to their native components based on the device using it
-  - Better to use functional components

@@ -1,0 +1,16 @@
+Lessons: 
+  - Assets folder
+      - Images, videos, etc
+  - React Native does not have <div> and other things like HTML, we have to use components provided by React Native
+      - This is so the elements are converted to their native components based on the device using it
+  - Better to use functional components
+  - Publishing app to expo so that we can view app offline and not have to deal with app store tediousness
+      - Purely for development of course
+  - NO CSS
+    - Either use inline or StyleSheet Objects written in JavaScript
+    - use StyleSheet.create{} for auto-completion and validation
+    - Flexbox: Key Concept for layouts
+        - Elements are positioned inside containers and controlled by style settings
+        - Every view by default uses Flexbox and organises by column
+    - Buttons do NOT support styling
+
