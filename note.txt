@@ -13,4 +13,10 @@ Lessons:
         - Elements are positioned inside containers and controlled by style settings
         - Every view by default uses Flexbox and organises by column
     - Buttons do NOT support styling
+    - Styles do NOT cascade
+  - Somethings only work on android and not ios and vice versa
+      - E.G. Border Radius works on android with a <Text> element but not with IOS so you need to wrap text in <View> to allow it to work on both
+  - To change default background colour of all pages in app, go to app.json and add BackgroundColor to object
+  - To use StatusBar component you need to wrap code in <> </>
 
+https://www.youtube.com/watch?v=VozPNrt-LfE
